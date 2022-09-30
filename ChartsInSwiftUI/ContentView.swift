@@ -6,14 +6,40 @@
 //
 
 import SwiftUI
+import Charts
 
 struct ContentView: View {
+    
+    let weekdays = Calendar.current.shortWeekdaySymbols
+    let workouts = [45, 60, 55, 35, 70, 20, 65]
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Chart in SwiftUI")
+            Chart {
+                ForEach(weekdays.indices, id: \.self) { idx in
+                    BarMark(x: .value("Workout", workouts[idx]), y: .value("Day", weekdays[idx]))
+                        .foregroundStyle(by: .value("Day", weekdays[idx]))
+                        .annotation(position: .overlay) {
+                            Text("\(workouts[idx]) mins")
+                                .font(.caption.bold())
+                                .foregroundColor(.white)
+                        }
+                }
+            }
+            .frame(height: 330)
+            .padding(.vertical, 40)
+            
+            Chart {
+                ForEach(weekdays.indices, id: \.self) { idx in
+                    BarMark(x: .value("Day", weekdays[idx]), y: .value("Workout", workouts[idx]))
+                        .foregroundStyle(by: .value("Day", weekdays[idx]))
+                        .annotation {
+                            Text("\(workouts[idx]) mins")
+                                .font(.caption.bold())
+                        }
+                }
+            }.frame(height: 200)
         }
         .padding()
     }
