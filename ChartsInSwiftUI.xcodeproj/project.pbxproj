@@ -11,6 +11,7 @@
 		5E0063D328E756EE0047E470 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0063D228E756EE0047E470 /* ContentView.swift */; };
 		5E0063D528E756F00047E470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0063D428E756F00047E470 /* Assets.xcassets */; };
 		5E0063D828E756F00047E470 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0063D728E756F00047E470 /* Preview Assets.xcassets */; };
+		5E0063DF28E75B830047E470 /* Simulator Screen Shot - iPhone 14 Pro - 2022-09-30 at 20.13.02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0063DE28E75B830047E470 /* Simulator Screen Shot - iPhone 14 Pro - 2022-09-30 at 20.13.02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5E0063D228E756EE0047E470 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E0063D428E756F00047E470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E0063D728E756F00047E470 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E0063DE28E75B830047E470 /* Simulator Screen Shot - iPhone 14 Pro - 2022-09-30 at 20.13.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 14 Pro - 2022-09-30 at 20.13.02.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				5E0063D028E756EE0047E470 /* ChartsInSwiftUIApp.swift */,
 				5E0063D228E756EE0047E470 /* ContentView.swift */,
 				5E0063D428E756F00047E470 /* Assets.xcassets */,
+				5E0063DE28E75B830047E470 /* Simulator Screen Shot - iPhone 14 Pro - 2022-09-30 at 20.13.02.png */,
 				5E0063D628E756F00047E470 /* Preview Content */,
 			);
 			path = ChartsInSwiftUI;
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0063D828E756F00047E470 /* Preview Assets.xcassets in Resources */,
+				5E0063DF28E75B830047E470 /* Simulator Screen Shot - iPhone 14 Pro - 2022-09-30 at 20.13.02.png in Resources */,
 				5E0063D528E756F00047E470 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
